@@ -1,15 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+	
 	<head>
 		<meta charset="UTF-8">
-		<title> Farmers Tech</title>
+		<title>Farmers Tech</title>
 	</head>
 
-	</head>
 		<body>
 			<header>
-				<div class="caixa">
-					<h1><img src="Main_logo_FarmersTech.jpg" alt="Main Logo Farmers Tech"</h1>
+				<div class="logo">
+					<h1><img src="Main_logo_FarmersTech1.jpg" alt="Main Logo Farmers Tech"</h1>
+				</div>
+				<div class="logobackground">
 					<h2><img src="Modern-Farming-Technology.jpg" alt="Backgroung Farmers Tech"></h2>
 				</div>			
 			</header>
@@ -17,13 +19,71 @@
 			<main>
 				<form>
 					<label for="namelastname">Name and Last Name</label>
-					<input type="text" id="namelastname" class="input-padrao" required placeholder="Name and Last Name">
+					<input type="text" id="namelastname" class="standard input" required placeholder="Name and Last Name">
 
 					<label for="email">E-mail</label>
-					<input type="email" id="email" class="input-padrao" required placeholder="email@farmerstech.com">
+					<input type="email" id="email" class="standard input" required placeholder="email@farmerstech.com">
 
 					<label for="phonecall">Phone</label>
-					<input type="tel" id="phonecall" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+					<input type="tel" id="phonecall" class="standard input" required placeholder="(XX) XXXXX-XXXX">
 
-					<label for="sendmessage">Message</label>
-					<textarea cols="70" rows="5" id="sendmessage" class="input-padrao" required></textarea>
+					<fieldset>
+							<legend>Tell us which service or product would you like to know about.</legend>
+							<label for="checkbox-commercialvisit">
+							<input type="checkbox" name="commercial" value="sale" id="checkbox-commercialvisit" checked>
+							Commercial Visit
+							</label>
+								
+							<label for="checkbox-cropprotection">
+							<input type="checkbox" name="crop" value="sale" id="checkbox-cropprotection" checked>
+							Crop Protection Sales
+							</label>
+	
+							<label for="checkbox-drone">
+							<input type="checkbox" name="drone" value="monitorization" id="checkbox-drone" checked>
+							Drone Monitorization
+							</label>						
+								
+							<label for="checkbox-newtechnology">
+							<input type="checkbox" name="tech" value="checkbox-newtechnology" id="checkbox-newtechnology" checked>
+							New Agricultural Solutions Technologies
+							</label>
+	
+							<label for="checkboxo-seeds">
+							<input type="checkbox" name="seeds" value="sale" id="checkbox-seeds" checked>
+							Seeds Sales
+							</label>
+	
+							<label for="checkbox-soilanalysis">
+							<input type="checkbox" name="soil" value="analysis" id="checkbox-soilanalysis" checked>
+							Soil Analysis
+							</label>								
+					</fieldset>
+					
+					<fieldset>
+							<legend>When would you like to meet us?</legend>
+							<input type="date" name="date">
+							<input type="time" name="time">
+					</fieldset>
+					
+					<Section>
+							<legend>Tell us where is your Farm</legend>
+						<div class="map">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3681.6807108661283!2d-46.78019618556658!3d-22.66569013500946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c921b6fadabe81%3A0xae69af3f009e8a43!2sFazenda%20Atalaia!5e0!3m2!1sen!2sbr!4v1663611990518!5m2!1sen!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+						</div>	
+					</Section>
+
+					<label class="checkbox">
+						<input type="checkbox" checked>
+						Would you like to receive our newsletters by email?
+					</label>
+					<input type="submit" value="Submit" class="send">
+				</form>
+				<footer>
+					<img src="logo_copyright1.png">
+					<p class="copyright">&copy; Farmers Tech Inc. All rights reserved - 2022</p>
+				</footer>
+			</main>
+</html>
+
+
