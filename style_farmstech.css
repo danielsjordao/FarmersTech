@@ -3,7 +3,7 @@ body {
 }
 
 header {
-    background: #FFFFFF;
+    background-image: linear-gradient(to left, rgba(50,205,50), rgba(240,255,255));
     padding: 20px 0;
 }
 
@@ -12,9 +12,12 @@ header {
     width: 940px;
     margin: auto 0;
 }
-/*.logobackground{
-    WIP - update necessary 
-}*/
+.phrase{
+    position: relative;
+    width: 100px;
+    margin:0 600px;
+    /* making update*/
+}
 
 .standard-input{
     display: block;
@@ -28,14 +31,22 @@ header {
     margin: 0 auto;
     padding: 10px 50px;
     width: 30%;
+    cursor: pointer;
 }
 .meet{
     display: inline-block;
-    margin: 10px 10px auto;
+    margin:  0 20px auto;
+    background: linear-gradient(lightgreen, lightgrey);
+    color: #4F4F4F;
+    font-weight: bold;
+    font-size: 18px;
+    border:none;
+    border-radius:5px;
+    cursor: pointer;
 }
 
 .checkbox{
-    margin: 20px 20px;
+    margin: 10px 10px;
 }
 
 .send{
@@ -56,17 +67,15 @@ header {
     transform: scale(1.2);
 }
 
-footer{
+/*footer{
     text-align: center;
-    background: url("logo_footer.png");
+    background: url("Modern-Farming-Technology.jpg");
     padding: 180px 0;
-    width: 1300px;
-}
-
+}*/
 .copyright{
     color: #00000;
-    font-size: 20px;
-    margin: 20px 0;
+    font-size: 15px;
+    margin: 0 500px;
 }    
 
 form {

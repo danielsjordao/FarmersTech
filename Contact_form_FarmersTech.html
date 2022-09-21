@@ -3,6 +3,7 @@
 	
 	<head>
 		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width"> 
 		<title>Farmers Tech</title>
 
 		<link rel="stylesheet" href="reset_farmstech.css">
@@ -12,11 +13,11 @@
 		<body>
 			<header>
 				<div class="logo">
-					<h1><img src="Main_logo_FarmersTech1.jpg" width="200" height="160" alt="Main Logo Farmers Tech"</h1>
+					<h1><img src="Main_logo_FarmersTech2.png" width="300" height="250" alt="Main Logo Farmers Tech"</h1>
 				</div>
-				<div class="logobackground">
-					<h2><img src="Modern-Farming-Technology.jpg" alt="Backgroung Farmers Tech"></h2>
-				</div>			
+				<div class="phrase">
+					<h2><img src="head_phrase.png" width="700" height="400" alt="head phrase farmers Tech"</h2>
+				</div>
 			</header>
 
 			<main>
@@ -30,44 +31,47 @@
 					<label for="phonecall"> Phone</label>
 					<input type="phone" id="phonecall" class="standard-input" required placeholder="(XX) XXXXX-XXXX">
 
-					<label for="address"> Farm Address</label>
-					<input type="phone" id="address" class="standard-input" required placeholder="Farm address">
+					<label for="address"> Farm´s Address</label>
+					<input type="address" id="address" class="standard-input" required placeholder="Farm´s address">
+
+					<label for="localization"> Farm´s Localization</label>
+					<input type="localization" id="localization" class="standard-input" required placeholder="Copy&Paste the Farm's Localization using the Google Maps link.">
 
 					<fieldset>
-							<legend>Tell us which service or product would you like to know about.</legend>
+							<legend>🌾 Tell us which service or product would you like to know about.</legend>
 							<label for="checkbox-commercialvisit">
-							<input type="checkbox" name="commercial" value="sale" id="checkbox-commercialvisit" class="services" checked>
+							<input type="checkbox" name="select" value="sale" id="checkbox-commercialvisit" class="services">
 							Commercial Visit
 							</label>
 								
 							<label for="checkbox-cropprotection">
-							<input type="checkbox" name="crop" value="sale" id="checkbox-cropprotection" class="services" checked>
+							<input type="checkbox" name="select" value="sale" id="checkbox-cropprotection" class="services">
 							Crop Protection Sales
 							</label>
 	
 							<label for="checkbox-drone">
-							<input type="checkbox" name="drone" value="monitorization" id="checkbox-drone" class="services" checked>
+							<input type="checkbox" name="select" value="monitorization" id="checkbox-drone" class="services">
 							Drone Monitorization
 							</label>						
 								
 							<label for="checkbox-newtechnology">
-							<input type="checkbox" name="tech" value="checkbox-newtechnology" id="checkbox-newtechnology" class="services" checked>
+							<input type="checkbox" name="select" value="checkbox-newtechnology" id="checkbox-newtechnology" class="services">
 							New Agricultural Solutions Technologies
 							</label>
 	
 							<label for="checkbox-seeds">
-							<input type="checkbox" name="seeds" value="sale" id="checkbox-seeds" class="services" checked>
+							<input type="checkbox" name="select" value="sale" id="checkbox-seeds" class="services">
 							Seeds Sales
 							</label>
 	
 							<label for="checkbox-soilanalysis">
-							<input type="checkbox" name="soil" value="analysis" id="checkbox-soilanalysis" class="services" checked>
+							<input type="checkbox" name="select" value="analysis" id="checkbox-soilanalysis" class="services">
 							Soil Analysis
 							</label>								
 					</fieldset>
 					
 					<fieldset>
-							<legend>When would you like to meet us?</legend>
+							<legend>🌾 When would you like to meet us?</legend>
 							<input type="date" name="date" class="meet">
 							<input type="time" name="time" class="meet">
 					</fieldset>
@@ -81,7 +85,8 @@
 				</form>
 
 				<footer>
-					<p class="copyright">&copy; Farmers Tech Inc. All rights reserved - 2022</p>
+					<img src="Modern-Farming-Technology.jpg" alt="Backgroung Farmers Tech" width=100% height=100%>
+					<p class="copyright">&copy; Farmers Tech Inc. All rights reserved - 2022</p>					
 				</footer>
 			</main>
 </html>
