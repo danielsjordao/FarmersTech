@@ -3,39 +3,50 @@ body {
 }
 
 header {
-    background-image: linear-gradient(to left, rgba(50,205,50), rgba(240,255,255));
+    background-image: linear-gradient(to left, rgba(50,205,50), rgba(255,250,250));
     padding: 20px 0;
 }
 
 .logo{
     position: relative;
-    width: 940px;
-    margin: auto 0;
+    margin: 0 30px 0;
 }
+
 .phrase{
-    position: relative;
-    width: 100px;
-    margin:0 600px;
+    position: absolute;
+    margin:-250px 600px 20px;
 }
 
 .standard-input{
     display: block;
-    margin: 10px 10px 10px;
-    padding: 10px 50px;
-    width: 30%;
+    margin: 0px 10px 10px;
+    padding: 10px 25px;
+    width: 40%;
 }
-
+/*
 .services{
     display: block;
     margin: 0 auto;
     padding: 10px 50px;
     width: 30%;
     cursor: pointer;
+}*/
+
+form{
+    margin: 20px 20px;
 }
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 20px 20px;
+    cursor: pointer;
+}
+
 .meet{
     display: inline-block;
     margin:  0 20px auto;
-    background: linear-gradient(lightgreen, lightgrey);
+    background: linear-gradient(green, lightgrey);
     color: #4F4F4F;
     font-weight: bold;
     font-size: 18px;
@@ -51,11 +62,11 @@ header {
 .send{
     width: 20%;
     padding: 20px 0;
-    background: limegreen;
+    background: linear-gradient(green, grey);
     color: white;
     font-weight: bold;
     font-size: 20px;
-    border: none;
+    border: none ;
     border-radius: 5px;
     transition: 1s all;
     cursor: pointer;
@@ -66,23 +77,13 @@ header {
     transform: scale(1.2);
 }
 
-/*footer{
+footer{
     text-align: center;
-    background: url("Modern-Farming-Technology.jpg");
-    padding: 180px 0;
-}*/
+    background: linear-gradient(to left, rgba(50,205,50), rgba(220,220,220));
+    padding: 20px 0;
+}
 .copyright{
     color: #000000;
     font-size: 15px;
-    margin: 0 500px;
+    margin: 0 50px
 }    
-
-form {
-    margin: 20px 20px;
-}
-
-form label, form legend {
-    display: block;
-    font-size: 20px;
-    margin: 0 10px 20px;
-}
